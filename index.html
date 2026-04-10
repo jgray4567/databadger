@@ -1,0 +1,1576 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--<< Header Area >>-->
+    <head>
+        <!-- ========== Meta Tags ========== -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Data Badger">
+        <meta name="description" content="Data Badger delivers actionable public records data reports for real estate agents, investors, attorneys, and professionals. Probate leads, pre-foreclosure data, tax delinquent lists, and 15+ report categories starting at $79/mo.">
+        <meta name="keywords" content="public records data, real estate leads, probate leads, pre-foreclosure data, tax delinquent lists, absentee owner data, property data reports, lead generation, AllTheLeads alternative, PropertyRadar alternative">
+        <meta name="robots" content="index, follow">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://mydatabadger.com/">
+        <meta property="og:title" content="Data Badger | Public Records Data That Closes Deals">
+        <meta property="og:description" content="Actionable public records data reports for real estate, legal, and financial professionals. 15+ report categories, fresh daily data, starting at $79/mo.">
+        <meta property="og:image" content="assets/img/logo/db-logo-stacked.png">
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://mydatabadger.com/">
+        <meta name="twitter:title" content="Data Badger | Public Records Data That Closes Deals">
+        <meta name="twitter:description" content="Actionable public records data reports for real estate, legal, and financial professionals. 15+ report categories starting at $79/mo.">
+        <meta name="twitter:image" content="assets/img/logo/db-logo-stacked.png">
+
+        <!-- Canonical -->
+        <link rel="canonical" href="https://mydatabadger.com/">
+
+        <!-- ======== Page title ============ -->
+        <title>Data Badger | Public Records Data That Closes Deals</title>
+        <!--<< Favicon >>-->
+        <link rel="shortcut icon" href="assets/img/logo/db-icon.png">
+        <!--<< Bootstrap min.css >>-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--<< All Min Css >>-->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <!--<< Animate.css >>-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!--<< Magnific Popup.css >>-->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!--<< MeanMenu.css >>-->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!--<< Swiper Bundle.css >>-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--<< Nice Select.css >>-->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <!--<< Color.css >>-->
+        <link rel="stylesheet" href="assets/css/color.css">
+        <!--<< Main.css >>-->
+        <link rel="stylesheet" href="assets/css/main.css">
+
+        <!-- Structured Data -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Data Badger",
+            "url": "https://mydatabadger.com",
+            "logo": "https://mydatabadger.com/assets/img/logo/db-logo-stacked.png",
+            "description": "Data Badger delivers actionable public records data reports for real estate, legal, and financial professionals.",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "sales",
+                "contactType": "sales"
+            },
+            "sameAs": [
+                "https://www.facebook.com/mydatabadger",
+                "https://www.linkedin.com/company/mydatabadger",
+                "https://twitter.com/mydatabadger"
+            ]
+        }
+        </script>
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Data Badger",
+            "url": "https://mydatabadger.com",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://mydatabadger.com/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+        </script>
+
+        <!-- Custom Overrides -->
+        <style>
+            :root {
+                --db-primary: #1a56db;
+                --db-secondary: #7c3aed;
+                --db-accent: #f59e0b;
+                --db-dark: #111827;
+                --db-light: #f3f4f6;
+            }
+            /* Hero handled by template's .hero-1 .style-hero-3 CSS */
+            .db-gradient-text {
+                background: linear-gradient(135deg, var(--db-primary), var(--db-secondary));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+            .pricing-tab-btn .nav-link.active {
+                background: linear-gradient(135deg, var(--db-primary), var(--db-secondary)) !important;
+            }
+            .report-category-card {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                border-radius: 12px;
+                overflow: hidden;
+            }
+            .report-category-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 35px rgba(26, 86, 219, 0.15);
+            }
+            .badge-popular {
+                background: linear-gradient(135deg, var(--db-accent), #ef4444);
+                color: white;
+                padding: 4px 12px;
+                border-radius: 20px;
+                font-size: 0.75rem;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+            .pricing-card-popular {
+                border: 2px solid var(--db-primary) !important;
+                position: relative;
+            }
+            .distress-meter {
+                height: 8px;
+                border-radius: 4px;
+                background: linear-gradient(90deg, #22c55e, #f59e0b, #ef4444);
+            }
+            .data-source-badge {
+                display: inline-block;
+                padding: 3px 10px;
+                border-radius: 6px;
+                font-size: 0.75rem;
+                font-weight: 500;
+                margin: 2px;
+            }
+            .badge-recorded { background: #dbeafe; color: #1e40af; }
+            .badge-derived { background: #fef3c7; color: #92400e; }
+            .badge-appended { background: #ede9fe; color: #5b21b6; }
+            .fun-bounce { animation: funBounce 2s ease-in-out infinite; }
+            @keyframes funBounce {
+                0%, 100% { transform: translateY(0); }
+                50% { transform: translateY(-10px); }
+            }
+            .section-title .sub-title {
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 0.875rem;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- Preloader Start -->
+        <div id="preloader" class="preloader">
+            <div class="animation-preloader">
+                <div class="spinner">
+                </div>
+                <div class="txt-loading">
+                    <span data-text-preloader="D" class="letters-loading">D</span>
+                    <span data-text-preloader="A" class="letters-loading">A</span>
+                    <span data-text-preloader="T" class="letters-loading">T</span>
+                    <span data-text-preloader="A" class="letters-loading">A</span>
+                    <span data-text-preloader="B" class="letters-loading">B</span>
+                    <span data-text-preloader="A" class="letters-loading">A</span>
+                    <span data-text-preloader="D" class="letters-loading">D</span>
+                    <span data-text-preloader="G" class="letters-loading">G</span>
+                    <span data-text-preloader="E" class="letters-loading">E</span>
+                    <span data-text-preloader="R" class="letters-loading">R</span>
+                </div>
+                <p class="text-center">Digging Up Your Data</p>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mouse cursor effect removed -->
+
+        <!-- Offcanvas Area Start -->
+        <div class="fix-area">
+            <div class="offcanvas__info">
+                <div class="offcanvas__wrapper">
+                    <div class="offcanvas__content">
+                        <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                            <div class="offcanvas__logo">
+                                <a href="index.html">
+                                    <img src="assets/img/logo/db-logo-horizontal.png" alt="Data Badger Logo" style="max-height: 50px;">
+                                </a>
+                            </div>
+                            <div class="offcanvas__close">
+                                <button>
+                                <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p class="text d-none d-xl-block">
+                            Data Badger digs deep into public records so you don't have to. Actionable data reports for real estate, legal, and financial professionals.
+                        </p>
+                        <div class="mobile-menu fix mb-3"></div>
+                        <div class="offcanvas__contact">
+                            <h4>Info</h4>
+                            <ul>
+                                <li class="d-flex align-items-center">
+                                    <div class="offcanvas__contact-icon mr-15">
+                                        <i class="fal fa-clock"></i>
+                                    </div>
+                                    <div class="offcanvas__contact-text">
+                                        <a href="#">Mon-Friday, 9am - 5pm CST</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <div class="offcanvas__contact-icon mr-15">
+                                        <i class="fal fa-globe"></i>
+                                    </div>
+                                    <div class="offcanvas__contact-text">
+                                        <a href="https://mydatabadger.com">mydatabadger.com</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="header-button mt-4">
+                                <a href="#pricing" class="theme-btn text-center">
+                                   View Plans <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                            <div class="social-icon d-flex align-items-center">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas__overlay"></div>
+
+        <!-- Header Section Start -->
+        <header class="header-section-1">
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top-wrapper">
+                        <p>Launch Special: Plans starting at <b>$79/mo</b> Data that closes deals!</p>
+                        <ul class="list">
+                            <li><i class="fa-light fa-user"></i>
+                                <button data-bs-toggle="modal" data-bs-target="#loginModal">
+                                    Login
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="header-sticky" class="header-1">
+                <div class="container">
+                    <div class="mega-menu-wrapper">
+                        <div class="header-main">
+                            <div class="header-left">
+                                <div class="logo">
+                                    <a href="index.html" class="header-logo">
+                                        <img src="assets/img/logo/db-logo-horizontal.png" alt="Data Badger Logo" style="max-height: 45px;">
+                                    </a>
+                                    <a href="index.html" class="header-logo-2">
+                                        <img src="assets/img/logo/db-logo-horizontal.png" alt="Data Badger Logo" style="max-height: 45px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="header-right d-flex justify-content-end align-items-center">
+                                <div class="mean__menu-wrapper">
+                                    <div class="main-menu">
+                                        <nav id="mobile-menu">
+                                            <ul>
+                                                <li>
+                                                    <a href="#reports">Data Reports</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#pricing">Pricing</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#how-it-works">How It Works</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#data-sources">Data Sources</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#about">About</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#faq">FAQ</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <div class="header-button">
+                                    <a href="#pricing" class="theme-btn">
+                                        Get Started <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                                <div class="header__hamburger d-xl-none my-auto">
+                                    <div class="sidebar-btn">
+                                        <button class="bar-btn">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Login Modal -->
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginModalLabel">
+                            <img src="assets/img/logo/db-icon.png" alt="Data Badger" style="height: 30px; margin-right: 8px;"> Client Login
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-4">
+                        <form action="#" method="post">
+                            <div class="mb-3">
+                                <label for="loginEmail" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="loginEmail" placeholder="your@email.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="loginPassword" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="loginPassword" placeholder="Your password" required>
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="rememberMe">
+                                    <label class="form-check-label" for="rememberMe">Remember me</label>
+                                </div>
+                                <a href="#">Forgot password?</a>
+                            </div>
+                            <button type="submit" class="theme-btn w-100 text-center">Sign In <i class="fa-solid fa-arrow-right-long"></i></button>
+                        </form>
+                        <div class="text-center mt-3">
+                            <p>Don't have an account? <a href="#pricing"><strong>View Plans</strong></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== Hero Section Start ===== -->
+        <section class="hero-section hero-1 style-hero-3 bg-cover fix" style="background-image: url('assets/img/hero/hero-bg-3.jpg');">
+            <div class="circle-shape-left">
+                <img src="assets/img/hero/hero-1-circle-left.png" alt="shape-img">
+            </div>
+            <div class="circle-shape-right">
+                <img src="assets/img/hero/hero-1-circle-right.png" alt="shape-img">
+            </div>
+            <div class="dot-left">
+                <img src="assets/img/hero/hero-1-dot-left.png" alt="img">
+            </div>
+            <div class="dot-right">
+                <img src="assets/img/hero/hero-1-dot-right.png" alt="img">
+            </div>
+            <div class="container">
+                <div class="row g-4 justify-content-between align-items-center">
+                    <div class="col-lg-7">
+                        <div class="hero-content">
+                            <span class="sub-text wow fadeInUp" style="color: var(--db-accent); font-weight: 700; font-size: 1.05rem; letter-spacing: 1px;">
+                                <i class="fa-solid fa-bolt"></i> PUBLIC RECORDS, ENHANCED ANALYTICS
+                            </span>
+                            <h1 class="wow fadeInUp" data-wow-delay=".3s">
+                                Get The Data That <span style="color: var(--db-accent);">Closes Deals.</span> <br>Delivered Fast!
+                            </h1>
+                            <h6 class="wow fadeInUp" data-wow-delay=".5s" style="color: rgba(255,255,255,0.85); font-weight: 400; line-height: 1.6;">
+                                Fresh public records data, enhanced with derived analytics <br class="d-none d-lg-block"> and skip-traced contacts. 15+ report categories built for pros.
+                            </h6>
+                            <div class="hero-author wow fadeInUp" data-wow-delay=".7s">
+                                <a href="#pricing" class="theme-btn bg-color-2">
+                                    View Plans &amp; Pricing <i class="fas fa-long-arrow-alt-right"></i>
+                                </a>
+                                <a href="#reports" class="theme-btn" style="background: transparent; border: 2px solid rgba(255,255,255,0.4); color: #fff; margin-left: 12px;">
+                                    Explore Reports <i class="fa-solid fa-database"></i>
+                                </a>
+                            </div>
+                            <div class="hosting-list mt-4 wow fadeInUp" data-wow-delay=".9s">
+                                <ul class="d-flex flex-wrap gap-4" style="list-style: none; padding: 0; margin: 0;">
+                                    <li class="text-white">
+                                        <strong style="font-size: 1.4rem; display: block;">15+</strong>
+                                        <small style="opacity: 0.75; font-size: 0.85rem;">Report Categories</small>
+                                    </li>
+                                    <li class="text-white">
+                                        <strong style="font-size: 1.4rem; display: block;">3,100+</strong>
+                                        <small style="opacity: 0.75; font-size: 0.85rem;">Counties Covered</small>
+                                    </li>
+                                    <li class="text-white">
+                                        <strong style="font-size: 1.4rem; display: block;">Daily</strong>
+                                        <small style="opacity: 0.75; font-size: 0.85rem;">Data Refreshes</small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="hero-image text-center" style="position: relative;">
+                            <img src="assets/img/hero/circle.png" alt="circle-shape" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 420px; height: 420px; object-fit: contain; opacity: 0.35;">
+                            <img src="assets/img/hero/badger-hero.png" alt="Data Badger Hero" style="max-width: 370px; width: 100%; height: auto; position: relative; z-index: 2;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Feature Cards Section (Data Tiers) ===== -->
+        <section class="feature-section fix section-padding" id="data-sources" style="background: var(--db-light);">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="sub-title wow fadeInUp" style="color: var(--db-primary);">HOW WE SOURCE YOUR DATA</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Public Records, Enhanced Data</h2>
+                    <p class="wow fadeInUp" data-wow-delay=".4s" style="max-width: 650px; margin: 0 auto;">
+                        Every data point traces back to a public record. We organize it into three tiers so you always know exactly where your data comes from.
+                    </p>
+                </div>
+                <div class="row g-4 mt-2">
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="feature-card-items text-center p-4" style="background: white; border-radius: 16px; height: 100%;">
+                            <div class="icon mb-3" style="width: 80px; height: 80px; line-height: 80px; border-radius: 50%; background: #dbeafe; margin: 0 auto; font-size: 2rem; color: #1e40af;">
+                                <i class="fa-solid fa-landmark"></i>
+                            </div>
+                            <div class="content">
+                                <h3 style="font-size: 1.35rem;">Recorded Data</h3>
+                                <span class="data-source-badge badge-recorded">Tier 1</span>
+                                <p class="mt-3">Direct from government filings. County assessor records, court filings, recorder documents, and tax recordsexactly as filed, no interpretation.</p>
+                                <ul class="text-start mt-3" style="list-style: none; padding: 0;">
+                                    <li><i class="fa-solid fa-check" style="color: #22c55e;"></i> Property ownership &amp; transfers</li>
+                                    <li><i class="fa-solid fa-check" style="color: #22c55e;"></i> Court case filings (probate, divorce, foreclosure)</li>
+                                    <li><i class="fa-solid fa-check" style="color: #22c55e;"></i> Tax assessments &amp; delinquencies</li>
+                                    <li><i class="fa-solid fa-check" style="color: #22c55e;"></i> Liens, judgments &amp; code violations</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                        <div class="feature-card-items text-center p-4" style="background: white; border-radius: 16px; height: 100%;">
+                            <div class="icon mb-3" style="width: 80px; height: 80px; line-height: 80px; border-radius: 50%; background: #fef3c7; margin: 0 auto; font-size: 2rem; color: #92400e;">
+                                <i class="fa-solid fa-calculator"></i>
+                            </div>
+                            <div class="content">
+                                <h3 style="font-size: 1.35rem;">Derived Analytics</h3>
+                                <span class="data-source-badge badge-derived">Tier 2</span>
+                                <p class="mt-3">Calculated from recorded data using transparent formulas. Automated Valuations, equity estimates, LTV ratios, and our proprietary Distress Score&trade;.</p>
+                                <ul class="text-start mt-3" style="list-style: none; padding: 0;">
+                                    <li><i class="fa-solid fa-check" style="color: #f59e0b;"></i> AVM (Automated Valuation Model)</li>
+                                    <li><i class="fa-solid fa-check" style="color: #f59e0b;"></i> Equity &amp; LTV calculations</li>
+                                    <li><i class="fa-solid fa-check" style="color: #f59e0b;"></i> Distress Score&trade; (0-100 composite)</li>
+                                    <li><i class="fa-solid fa-check" style="color: #f59e0b;"></i> Days-on-market &amp; price trends</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                        <div class="feature-card-items text-center p-4" style="background: white; border-radius: 16px; height: 100%;">
+                            <div class="icon mb-3" style="width: 80px; height: 80px; line-height: 80px; border-radius: 50%; background: #ede9fe; margin: 0 auto; font-size: 2rem; color: #5b21b6;">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                            <div class="content">
+                                <h3 style="font-size: 1.35rem;">Appended Contacts</h3>
+                                <span class="data-source-badge badge-appended">Tier 3</span>
+                                <p class="mt-3">Skip-traced from publicly available sources. Phone numbers, email addresses, mailing addressesso you can reach the right person immediately.</p>
+                                <ul class="text-start mt-3" style="list-style: none; padding: 0;">
+                                    <li><i class="fa-solid fa-check" style="color: #7c3aed;"></i> Phone numbers (mobile &amp; landline)</li>
+                                    <li><i class="fa-solid fa-check" style="color: #7c3aed;"></i> Email addresses</li>
+                                    <li><i class="fa-solid fa-check" style="color: #7c3aed;"></i> Mailing &amp; forwarding addresses</li>
+                                    <li><i class="fa-solid fa-check" style="color: #7c3aed;"></i> Relative &amp; associate connections</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Data Reports Section ===== -->
+        <section class="service-section fix section-padding" id="reports">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="sub-title wow fadeInUp" style="color: var(--db-primary);"><i class="fa-solid fa-database"></i> 15+ REPORT CATEGORIES</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Every Lead Type. One Platform.</h2>
+                    <p class="wow fadeInUp" data-wow-delay=".4s" style="max-width: 650px; margin: 0 auto;">
+                        Whether you're chasing probate leads or building an absentee owner campaign, Data Badger has the report. Fresh data, delivered as clean, ready-to-use CSV or Excel files.
+                    </p>
+                </div>
+                <div class="row g-4 mt-2">
+                    <!-- Probate -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="report-category-card p-4" style="background: #fff; border: 1px solid #e5e7eb; height: 100%;">
+                            <div class="d-flex align-items-center mb-3">
+                                <div style="width: 50px; height: 50px; border-radius: 12px; background: #fef3c7; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: #92400e; margin-right: 12px;">
+                                    <i class="fa-solid fa-scroll"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Probate Leads</h5>
+                                    <span class="badge-popular">Hot Category</span>
+                                </div>
+                            </div>
+                            <p>Recently filed probate cases with property details, personal representative contacts, attorney info, and estimated property values. The gold standard for motivated seller leads.</p>
+                            <div class="mt-2">
+                                <span class="data-source-badge badge-recorded">Court Records</span>
+                                <span class="data-source-badge badge-derived">AVM</span>
+                                <span class="data-source-badge badge-appended">Skip Trace</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pre-Foreclosure -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="report-category-card p-4" style="background: #fff; border: 1px solid #e5e7eb; height: 100%;">
+                            <div class="d-flex align-items-center mb-3">
+                                <div style="width: 50px; height: 50px; border-radius: 12px; background: #fee2e2; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: #991b1b; margin-right: 12px;">
+                                    <i class="fa-solid fa-house-crack"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Pre-Foreclosure</h5>
+                                    <span class="badge-popular">Hot Category</span>
+                                </div>
+                            </div>
+                            <p>Lis pendens and NOD filings with loan balance estimates, equity calculations, auction dates, and owner contact info. Reach distressed homeowners before the auction.</p>
+                            <div class="mt-2">
+                                <span class="data-source-badge badge-recorded">Recorder</span>
+                                <span class="data-source-badge badge-derived">Equity Calc</span>
+                                <span class="data-source-badge badge-appended">Skip Trace</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Divorce -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="report-category-card p-4" style="background: #fff; border: 1px solid #e5e7eb; height: 100%;">
+                            <div class="d-flex align-items-center mb-3">
+                                <div style="width: 50px; height: 50px; border-radius: 12px; background: #ede9fe; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: #5b21b6; margin-right: 12px;">
+                                    <i class="fa-solid fa-heart-crack"></i>
+                                </div>
+                                <h5 class="mb-0">Divorce Filings</h5>
+                            </div>
+                            <p>Recently filed divorce petitions with property ownership cross-reference, estimated home equity, and contact information. A frequently overlooked source of motivated sellers.</p>
+                            <div class="mt-2">
+                                <span class="data-source-badge badge-recorded">Court Records</span>
+                                <span class="data-source-badge badge-derived">Equity Calc</span>
+                                <span class="data-source-badge badge-appended">Skip Trace</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tax Delinquent -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="report-category-card p-4" style="background: #fff; border: 1px solid #e5e7eb; height: 100%;">
+                            <div class="d-flex align-items-center mb-3">
+                                <div style="width: 50px; height: 50px; border-radius: 12px; background: #fef3c7; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: #92400e; margin-right: 12px;">
+                                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                                </div>
+                                <h5 class="mb-0">Tax Delinquent</h5>
+                            </div>
+                            <p>Properties with delinquent tax payments including amount owed, years delinquent, tax sale dates, and assessed values. These owners need solutionsbe the one who calls first.</p>
+                            <div class="mt-2">
+                                <span class="data-source-badge badge-recorded">Treasurer</span>
+                                <span class="data-source-badge badge-derived">AVM</span>
+                                <span class="data-source-badge badge-appended">Skip Trace</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Absentee Owners -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="report-category-card p-4" style="background: #fff; border: 1px solid #e5e7eb; height: 100%;">
+                            <div class="d-flex align-items-center mb-3">
+                                <div style="width: 50px; height: 50px; border-radius: 12px; background: #dbeafe; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: #1e40af; margin-right: 12px;">
+                                    <i class="fa-solid fa-plane-departure"></i>
+                                </div>
+                                <h5 class="mb-0">Absentee Owners</h5>
+                            </div>
+                            <p>Property owners whose mailing address differs from the property address. Includes ownership duration, property type, estimated value, and verified contact information.</p>
+                            <div class="mt-2">
+                                <span class="data-source-badge badge-recorded">Assessor</span>
+                                <span class="data-source-badge badge-derived">AVM</span>
+                                <span class="data-source-badge badge-appended">Skip Trace</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Liens & Judgments -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="report-category-card p-4" style="background: #fff; border: 1px solid #e5e7eb; height: 100%;">
+                            <div class="d-flex align-items-center mb-3">
+                                <div style="width: 50px; height: 50px; border-radius: 12px; background: #fee2e2; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: #991b1b; margin-right: 12px;">
+                                    <i class="fa-solid fa-gavel"></i>
+                                </div>
+                                <h5 class="mb-0">Liens &amp; Judgments</h5>
+                            </div>
+                            <p>IRS tax liens, mechanic's liens, HOA liens, and civil judgments attached to properties. Includes lien amounts, filing dates, and creditor details for maximum targeting precision.</p>
+                            <div class="mt-2">
+                                <span class="data-source-badge badge-recorded">Recorder</span>
+                                <span class="data-source-badge badge-recorded">Court Records</span>
+                                <span class="data-source-badge badge-appended">Skip Trace</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Code Violations -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="report-category-card p-4" style="background: #fff; border: 1px solid #e5e7eb; height: 100%;">
+                            <div class="d-flex align-items-center mb-3">
+                                <div style="width: 50px; height: 50px; border-radius: 12px; background: #fef3c7; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: #92400e; margin-right: 12px;">
+                                    <i class="fa-solid fa-triangle-exclamation"></i>
+                                </div>
+                                <h5 class="mb-0">Code Violations</h5>
+                            </div>
+                            <p>Active municipal code enforcement cases with violation types, fine amounts, compliance deadlines, and property details. Owners facing fines are often ready to sell.</p>
+                            <div class="mt-2">
+                                <span class="data-source-badge badge-recorded">Municipal</span>
+                                <span class="data-source-badge badge-derived">AVM</span>
+                                <span class="data-source-badge badge-appended">Skip Trace</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Evictions -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="report-category-card p-4" style="background: #fff; border: 1px solid #e5e7eb; height: 100%;">
+                            <div class="d-flex align-items-center mb-3">
+                                <div style="width: 50px; height: 50px; border-radius: 12px; background: #ede9fe; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: #5b21b6; margin-right: 12px;">
+                                    <i class="fa-solid fa-door-open"></i>
+                                </div>
+                                <h5 class="mb-0">Evictions</h5>
+                            </div>
+                            <p>Landlords filing eviction actionsa signal of rental property distress. Includes property details, case info, and owner contacts. Tired landlords make willing sellers.</p>
+                            <div class="mt-2">
+                                <span class="data-source-badge badge-recorded">Court Records</span>
+                                <span class="data-source-badge badge-derived">AVM</span>
+                                <span class="data-source-badge badge-appended">Skip Trace</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bankruptcy -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="report-category-card p-4" style="background: #fff; border: 1px solid #e5e7eb; height: 100%;">
+                            <div class="d-flex align-items-center mb-3">
+                                <div style="width: 50px; height: 50px; border-radius: 12px; background: #fee2e2; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: #991b1b; margin-right: 12px;">
+                                    <i class="fa-solid fa-scale-unbalanced"></i>
+                                </div>
+                                <h5 class="mb-0">Bankruptcy</h5>
+                            </div>
+                            <p>Chapter 7, 11, and 13 filings from PACER with property schedules, trustee info, and discharge dates. Attorneys and investors both find gold in these records.</p>
+                            <div class="mt-2">
+                                <span class="data-source-badge badge-recorded">PACER</span>
+                                <span class="data-source-badge badge-derived">Equity Calc</span>
+                                <span class="data-source-badge badge-appended">Skip Trace</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- More reports row -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="report-category-card p-4" style="background: #fff; border: 1px solid #e5e7eb; height: 100%;">
+                            <div class="d-flex align-items-center mb-3">
+                                <div style="width: 50px; height: 50px; border-radius: 12px; background: #dbeafe; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: #1e40af; margin-right: 12px;">
+                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                </div>
+                                <h5 class="mb-0">Expired Listings</h5>
+                            </div>
+                            <p>Properties that failed to sell during their listing period. Includes original list price, days on market, listing history, and owner contacts. They still want to sellthey just need you.</p>
+                            <div class="mt-2">
+                                <span class="data-source-badge badge-recorded">MLS Public</span>
+                                <span class="data-source-badge badge-derived">Price Analysis</span>
+                                <span class="data-source-badge badge-appended">Skip Trace</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="report-category-card p-4" style="background: #fff; border: 1px solid #e5e7eb; height: 100%;">
+                            <div class="d-flex align-items-center mb-3">
+                                <div style="width: 50px; height: 50px; border-radius: 12px; background: #d1fae5; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: #065f46; margin-right: 12px;">
+                                    <i class="fa-solid fa-key"></i>
+                                </div>
+                                <h5 class="mb-0">New Homeowners</h5>
+                            </div>
+                            <p>Recently recorded property transfers and new deeds. Perfect for insurance agents, financial advisors, and home service providers targeting people who just bought a home.</p>
+                            <div class="mt-2">
+                                <span class="data-source-badge badge-recorded">Recorder</span>
+                                <span class="data-source-badge badge-derived">Purchase Price</span>
+                                <span class="data-source-badge badge-appended">Skip Trace</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="report-category-card p-4" style="background: #fff; border: 1px solid #e5e7eb; height: 100%;">
+                            <div class="d-flex align-items-center mb-3">
+                                <div style="width: 50px; height: 50px; border-radius: 12px; background: #fef3c7; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: #92400e; margin-right: 12px;">
+                                    <i class="fa-solid fa-house-chimney-crack"></i>
+                                </div>
+                                <h5 class="mb-0">Vacant Properties</h5>
+                            </div>
+                            <p>Identified via USPS vacancy indicators, utility disconnection records, and carrier route data. Vacant properties often signal neglect, estate situations, or willingness to sell.</p>
+                            <div class="mt-2">
+                                <span class="data-source-badge badge-recorded">USPS</span>
+                                <span class="data-source-badge badge-derived">Vacancy Score</span>
+                                <span class="data-source-badge badge-appended">Owner Trace</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Final 3 -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="report-category-card p-4" style="background: #fff; border: 1px solid #e5e7eb; height: 100%;">
+                            <div class="d-flex align-items-center mb-3">
+                                <div style="width: 50px; height: 50px; border-radius: 12px; background: #d1fae5; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: #065f46; margin-right: 12px;">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                </div>
+                                <h5 class="mb-0">High Equity</h5>
+                            </div>
+                            <p>Properties with 40%+ estimated equity based on AVM vs. recorded mortgage balances. High equity owners have optionsand they're open to conversations about them.</p>
+                            <div class="mt-2">
+                                <span class="data-source-badge badge-recorded">Assessor</span>
+                                <span class="data-source-badge badge-derived">AVM + LTV</span>
+                                <span class="data-source-badge badge-appended">Skip Trace</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="report-category-card p-4" style="background: #fff; border: 1px solid #e5e7eb; height: 100%;">
+                            <div class="d-flex align-items-center mb-3">
+                                <div style="width: 50px; height: 50px; border-radius: 12px; background: #ede9fe; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: #5b21b6; margin-right: 12px;">
+                                    <i class="fa-solid fa-cross"></i>
+                                </div>
+                                <h5 class="mb-0">Inheritance / Death</h5>
+                            </div>
+                            <p>Death records cross-referenced with property ownership. Identifies inherited properties before probate is filed. Early contact = early advantage for agents and investors alike.</p>
+                            <div class="mt-2">
+                                <span class="data-source-badge badge-recorded">Vital Records</span>
+                                <span class="data-source-badge badge-derived">AVM</span>
+                                <span class="data-source-badge badge-appended">Heir Trace</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="report-category-card p-4" style="background: linear-gradient(135deg, #1a56db, #7c3aed); color: white; border: none; height: 100%;">
+                            <div class="d-flex align-items-center mb-3">
+                                <div style="width: 50px; height: 50px; border-radius: 12px; background: rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: white; margin-right: 12px;">
+                                    <i class="fa-solid fa-fire"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0" style="color: white;">Distress Score&trade; Report</h5>
+                                    <span style="background: var(--db-accent); color: white; padding: 2px 10px; border-radius: 20px; font-size: 0.7rem; font-weight: 600;">EXCLUSIVE</span>
+                                </div>
+                            </div>
+                            <p>Our proprietary composite scoring system analyzes 18 weighted distress signals to rank every property on a 0-100 scale. Stack-rank your entire target area by motivation level.</p>
+                            <div class="distress-meter mt-3 mb-2"></div>
+                            <small>0 ··· Low Risk ··· Medium ··· High ··· 100</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== About / Stats Section ===== -->
+        <section class="about-section fix section-padding" id="about">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="about-image wow fadeInLeft" data-wow-delay=".3s">
+                                <img src="assets/img/about/badger-thumbsup.png" alt="Data Badger Thumbs Up" style="max-width: 85%; height: auto;" class="fun-bounce">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about-content">
+                                <div class="section-title">
+                                    <span class="sub-title wow fadeInUp" style="color: var(--db-primary);">WHY DATA BADGER?</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">We Dig Where Others Won't.</h2>
+                                </div>
+                                <p class="mt-3 wow fadeInUp" data-wow-delay=".4s" style="font-size: 1.05rem;">
+                                    Most data companies charge you for a bloated platform you don't need. Data Badger strips away the fluff and delivers exactly what matters: clean, verified, actionable public records data at a price that makes sense.
+                                </p>
+                                <div class="row g-4 mt-2">
+                                    <div class="col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                                        <div class="counter-items p-4" style="background: var(--db-light); border-radius: 12px; height: 100%;">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div style="width: 45px; height: 45px; border-radius: 10px; background: #dbeafe; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; color: #1e40af; margin-right: 12px;">
+                                                    <i class="fa-solid fa-database"></i>
+                                                </div>
+                                                <h3 class="mb-0"><span class="count" data-count="15" data-speed="1500">0</span>+</h3>
+                                            </div>
+                                            <h6>Report Categories</h6>
+                                            <p style="font-size: 0.9rem; margin-bottom: 0;">Probate, pre-foreclosure, tax delinquent, divorce, bankruptcy, liens, and more. Every major lead type covered.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 wow fadeInUp" data-wow-delay=".4s">
+                                        <div class="counter-items p-4" style="background: var(--db-light); border-radius: 12px; height: 100%;">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div style="width: 45px; height: 45px; border-radius: 10px; background: #fef3c7; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; color: #92400e; margin-right: 12px;">
+                                                    <i class="fa-solid fa-map-location-dot"></i>
+                                                </div>
+                                                <h3 class="mb-0"><span class="count" data-count="3100" data-speed="1500">0</span>+</h3>
+                                            </div>
+                                            <h6>Counties Covered</h6>
+                                            <p style="font-size: 0.9rem; margin-bottom: 0;">Nationwide coverage pulling directly from county assessors, recorders, courts, and treasurers across all 50 states.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                                        <div class="counter-items p-4" style="background: var(--db-light); border-radius: 12px; height: 100%;">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div style="width: 45px; height: 45px; border-radius: 10px; background: #d1fae5; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; color: #065f46; margin-right: 12px;">
+                                                    <i class="fa-solid fa-shield-check"></i>
+                                                </div>
+                                                <h3 class="mb-0"><span class="count" data-count="100" data-speed="1500">0</span>%</h3>
+                                            </div>
+                                            <h6>Public Records Sourced</h6>
+                                            <p style="font-size: 0.9rem; margin-bottom: 0;">Every data point traces back to a verifiable public record. No scraped data, no guesswork, full transparency.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 wow fadeInUp" data-wow-delay=".6s">
+                                        <div class="counter-items p-4" style="background: var(--db-light); border-radius: 12px; height: 100%;">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div style="width: 45px; height: 45px; border-radius: 10px; background: #ede9fe; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; color: #5b21b6; margin-right: 12px;">
+                                                    <i class="fa-solid fa-tag"></i>
+                                                </div>
+                                                <h3 class="mb-0">$<span class="count" data-count="79" data-speed="1500">0</span>/mo</h3>
+                                            </div>
+                                            <h6>Starting Price</h6>
+                                            <p style="font-size: 0.9rem; margin-bottom: 0;">Competitors charge $199-$399/mo for similar data bundled with software you don't need. We cut the bloat and the price.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="mt-4 wow fadeInUp" data-wow-delay=".5s" style="list-style: none; padding: 0; font-size: 1.05rem;">
+                                    <li class="mb-2"><i class="fa-solid fa-circle-check" style="color: #22c55e; margin-right: 8px;"></i> No bloated software, just the data you need</li>
+                                    <li class="mb-2"><i class="fa-solid fa-circle-check" style="color: #22c55e; margin-right: 8px;"></i> Every field traced to its public record source</li>
+                                    <li class="mb-2"><i class="fa-solid fa-circle-check" style="color: #22c55e; margin-right: 8px;"></i> Updated daily from county, court &amp; federal sources</li>
+                                    <li class="mb-2"><i class="fa-solid fa-circle-check" style="color: #22c55e; margin-right: 8px;"></i> CSV &amp; Excel delivery, works with any CRM</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Pricing Section ===== -->
+        <section class="pricing-section fix section-padding section-bg" id="pricing" style="background: var(--db-light);">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="sub-title wow fadeInUp" style="color: var(--db-primary);">SIMPLE, TRANSPARENT PRICING</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Plans That Make Sense.</h2>
+                    <p class="wow fadeInUp" data-wow-delay=".4s" style="max-width: 600px; margin: 0 auto;">
+                        No contracts. No hidden fees. No bloated software you won't use. Just pure, actionable data at a fraction of what the big guys charge.
+                    </p>
+                </div>
+                <!-- Monthly / Yearly Toggle -->
+                <div class="text-center mt-4 mb-5 wow fadeInUp" data-wow-delay=".5s">
+                    <ul class="nav nav-pills justify-content-center pricing-tab-btn" id="pricingTab" role="tablist" style="display: inline-flex; background: #e5e7eb; border-radius: 30px; padding: 4px;">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="monthly-tab" data-bs-toggle="pill" data-bs-target="#monthly" type="button" role="tab" style="border-radius: 26px; padding: 8px 24px; border: none; font-weight: 600;">Monthly</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="yearly-tab" data-bs-toggle="pill" data-bs-target="#yearly" type="button" role="tab" style="border-radius: 26px; padding: 8px 24px; border: none; font-weight: 600;">Yearly <span style="background: #22c55e; color: white; padding: 2px 8px; border-radius: 10px; font-size: 0.7rem; margin-left: 4px;">Save 20%</span></button>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Pricing Cards -->
+                <div class="tab-content" id="pricingTabContent">
+                    <!-- Monthly Pricing -->
+                    <div class="tab-pane fade show active" id="monthly" role="tabpanel">
+                        <div class="row g-4 justify-content-center">
+                            <!-- Starter -->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                                <div class="pricing-items p-4 text-center" style="background: white; border-radius: 16px; border: 1px solid #e5e7eb; height: 100%;">
+                                    <h4>Starter</h4>
+                                    <p class="text-muted">For solo agents getting started</p>
+                                    <div class="price my-3">
+                                        <h2 style="font-size: 2.5rem; margin-bottom: 0;">$79<small style="font-size: 1rem; font-weight: 400;">/mo</small></h2>
+                                    </div>
+                                    <hr>
+                                    <ul style="list-style: none; padding: 0; text-align: left;">
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>3</strong> report categories</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>1</strong> county</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>500</strong> records/month</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> CSV &amp; Excel delivery</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> Weekly data refresh</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> Email support</li>
+                                        <li class="mb-2 text-muted"><i class="fa-solid fa-xmark" style="color: #d1d5db; margin-right: 8px;"></i> Skip-traced contacts</li>
+                                        <li class="mb-2 text-muted"><i class="fa-solid fa-xmark" style="color: #d1d5db; margin-right: 8px;"></i> Distress Score&trade;</li>
+                                    </ul>
+                                    <a href="#" class="theme-btn w-100 text-center mt-3" style="background: var(--db-dark);">Get Started</a>
+                                </div>
+                            </div>
+                            <!-- Professional (Popular) -->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                                <div class="pricing-items pricing-card-popular p-4 text-center" style="background: white; border-radius: 16px; height: 100%; position: relative;">
+                                    <div style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%);">
+                                        <span class="badge-popular"><i class="fa-solid fa-star"></i> Most Popular</span>
+                                    </div>
+                                    <h4>Professional</h4>
+                                    <p class="text-muted">For active agents &amp; small teams</p>
+                                    <div class="price my-3">
+                                        <h2 style="font-size: 2.5rem; margin-bottom: 0; color: var(--db-primary);">$159<small style="font-size: 1rem; font-weight: 400;">/mo</small></h2>
+                                    </div>
+                                    <hr>
+                                    <ul style="list-style: none; padding: 0; text-align: left;">
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>8</strong> report categories</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>3</strong> counties</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>2,000</strong> records/month</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> CSV &amp; Excel delivery</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> Daily data refresh</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> Priority support</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>Skip-traced contacts</strong></li>
+                                        <li class="mb-2 text-muted"><i class="fa-solid fa-xmark" style="color: #d1d5db; margin-right: 8px;"></i> Distress Score&trade;</li>
+                                    </ul>
+                                    <a href="#" class="theme-btn w-100 text-center mt-3">Get Started <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                            <!-- Enterprise -->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                                <div class="pricing-items p-4 text-center" style="background: white; border-radius: 16px; border: 1px solid #e5e7eb; height: 100%;">
+                                    <h4>Enterprise</h4>
+                                    <p class="text-muted">For power users &amp; investors</p>
+                                    <div class="price my-3">
+                                        <h2 style="font-size: 2.5rem; margin-bottom: 0;">$299<small style="font-size: 1rem; font-weight: 400;">/mo</small></h2>
+                                    </div>
+                                    <hr>
+                                    <ul style="list-style: none; padding: 0; text-align: left;">
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>All 15+</strong> report categories</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>10</strong> counties</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>10,000</strong> records/month</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> CSV, Excel &amp; API access</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> Real-time data refresh</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> Dedicated support</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>Skip-traced contacts</strong></li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>Distress Score&trade;</strong></li>
+                                    </ul>
+                                    <a href="#" class="theme-btn w-100 text-center mt-3" style="background: var(--db-dark);">Get Started</a>
+                                </div>
+                            </div>
+                            <!-- Brokerage -->
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                                <div class="pricing-items p-4 text-center" style="background: linear-gradient(135deg, #111827, #1e293b); color: white; border-radius: 16px; height: 100%;">
+                                    <h4 style="color: var(--db-accent);">Brokerage</h4>
+                                    <p style="color: #94a3b8;">For teams &amp; brokerages</p>
+                                    <div class="price my-3">
+                                        <h2 style="font-size: 2.5rem; margin-bottom: 0; color: white;">$599<small style="font-size: 1rem; font-weight: 400;">/mo</small></h2>
+                                    </div>
+                                    <hr style="border-color: #374151;">
+                                    <ul style="list-style: none; padding: 0; text-align: left;">
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> <strong>All 15+</strong> report categories</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> <strong>Unlimited</strong> counties</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> <strong>50,000</strong> records/month</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> CSV, Excel, API &amp; FTP</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> Real-time data refresh</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> White-glove support</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> <strong>Skip-traced contacts</strong></li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> <strong>Distress Score&trade;</strong></li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> <strong>Up to 10 user seats</strong></li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> Custom report builder</li>
+                                    </ul>
+                                    <a href="#" class="theme-btn w-100 text-center mt-3" style="background: var(--db-accent); color: #111827; font-weight: 700;">Contact Sales <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Yearly Pricing -->
+                    <div class="tab-pane fade" id="yearly" role="tabpanel">
+                        <div class="row g-4 justify-content-center">
+                            <!-- Starter Yearly -->
+                            <div class="col-xl-3 col-lg-6 col-md-6">
+                                <div class="pricing-items p-4 text-center" style="background: white; border-radius: 16px; border: 1px solid #e5e7eb; height: 100%;">
+                                    <h4>Starter</h4>
+                                    <p class="text-muted">For solo agents getting started</p>
+                                    <div class="price my-3">
+                                        <h2 style="font-size: 2.5rem; margin-bottom: 0;">$63<small style="font-size: 1rem; font-weight: 400;">/mo</small></h2>
+                                        <small class="text-muted">Billed $758/year (Save $190)</small>
+                                    </div>
+                                    <hr>
+                                    <ul style="list-style: none; padding: 0; text-align: left;">
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>3</strong> report categories</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>1</strong> county</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>500</strong> records/month</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> CSV &amp; Excel delivery</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> Weekly data refresh</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> Email support</li>
+                                        <li class="mb-2 text-muted"><i class="fa-solid fa-xmark" style="color: #d1d5db; margin-right: 8px;"></i> Skip-traced contacts</li>
+                                        <li class="mb-2 text-muted"><i class="fa-solid fa-xmark" style="color: #d1d5db; margin-right: 8px;"></i> Distress Score&trade;</li>
+                                    </ul>
+                                    <a href="#" class="theme-btn w-100 text-center mt-3" style="background: var(--db-dark);">Get Started</a>
+                                </div>
+                            </div>
+                            <!-- Professional Yearly -->
+                            <div class="col-xl-3 col-lg-6 col-md-6">
+                                <div class="pricing-items pricing-card-popular p-4 text-center" style="background: white; border-radius: 16px; height: 100%; position: relative;">
+                                    <div style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%);">
+                                        <span class="badge-popular"><i class="fa-solid fa-star"></i> Most Popular</span>
+                                    </div>
+                                    <h4>Professional</h4>
+                                    <p class="text-muted">For active agents &amp; small teams</p>
+                                    <div class="price my-3">
+                                        <h2 style="font-size: 2.5rem; margin-bottom: 0; color: var(--db-primary);">$127<small style="font-size: 1rem; font-weight: 400;">/mo</small></h2>
+                                        <small class="text-muted">Billed $1,524/year (Save $384)</small>
+                                    </div>
+                                    <hr>
+                                    <ul style="list-style: none; padding: 0; text-align: left;">
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>8</strong> report categories</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>3</strong> counties</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>2,000</strong> records/month</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> CSV &amp; Excel delivery</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> Daily data refresh</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> Priority support</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>Skip-traced contacts</strong></li>
+                                        <li class="mb-2 text-muted"><i class="fa-solid fa-xmark" style="color: #d1d5db; margin-right: 8px;"></i> Distress Score&trade;</li>
+                                    </ul>
+                                    <a href="#" class="theme-btn w-100 text-center mt-3">Get Started <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                            <!-- Enterprise Yearly -->
+                            <div class="col-xl-3 col-lg-6 col-md-6">
+                                <div class="pricing-items p-4 text-center" style="background: white; border-radius: 16px; border: 1px solid #e5e7eb; height: 100%;">
+                                    <h4>Enterprise</h4>
+                                    <p class="text-muted">For power users &amp; investors</p>
+                                    <div class="price my-3">
+                                        <h2 style="font-size: 2.5rem; margin-bottom: 0;">$239<small style="font-size: 1rem; font-weight: 400;">/mo</small></h2>
+                                        <small class="text-muted">Billed $2,868/year (Save $720)</small>
+                                    </div>
+                                    <hr>
+                                    <ul style="list-style: none; padding: 0; text-align: left;">
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>All 15+</strong> report categories</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>10</strong> counties</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>10,000</strong> records/month</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> CSV, Excel &amp; API access</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> Real-time data refresh</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> Dedicated support</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>Skip-traced contacts</strong></li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: #22c55e; margin-right: 8px;"></i> <strong>Distress Score&trade;</strong></li>
+                                    </ul>
+                                    <a href="#" class="theme-btn w-100 text-center mt-3" style="background: var(--db-dark);">Get Started</a>
+                                </div>
+                            </div>
+                            <!-- Brokerage Yearly -->
+                            <div class="col-xl-3 col-lg-6 col-md-6">
+                                <div class="pricing-items p-4 text-center" style="background: linear-gradient(135deg, #111827, #1e293b); color: white; border-radius: 16px; height: 100%;">
+                                    <h4 style="color: var(--db-accent);">Brokerage</h4>
+                                    <p style="color: #94a3b8;">For teams &amp; brokerages</p>
+                                    <div class="price my-3">
+                                        <h2 style="font-size: 2.5rem; margin-bottom: 0; color: white;">$529<small style="font-size: 1rem; font-weight: 400;">/mo</small></h2>
+                                        <small style="color: #94a3b8;">Billed $6,348/year (Save $840)</small>
+                                    </div>
+                                    <hr style="border-color: #374151;">
+                                    <ul style="list-style: none; padding: 0; text-align: left;">
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> <strong>All 15+</strong> report categories</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> <strong>Unlimited</strong> counties</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> <strong>50,000</strong> records/month</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> CSV, Excel, API &amp; FTP</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> Real-time data refresh</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> White-glove support</li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> <strong>Skip-traced contacts</strong></li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> <strong>Distress Score&trade;</strong></li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> <strong>Up to 10 user seats</strong></li>
+                                        <li class="mb-2"><i class="fa-solid fa-check" style="color: var(--db-accent); margin-right: 8px;"></i> Custom report builder</li>
+                                    </ul>
+                                    <a href="#" class="theme-btn w-100 text-center mt-3" style="background: var(--db-accent); color: #111827; font-weight: 700;">Contact Sales <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center mt-5 pt-3 wow fadeInUp" data-wow-delay=".5s" style="color: #6b7280;">
+                    All plans include a <strong>7-day free trial</strong>. No credit card required. Cancel anytime.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== How It Works Section ===== -->
+        <section class="section-padding fix" id="how-it-works">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="sub-title wow fadeInUp" style="color: var(--db-primary);">SIMPLE AS 1-2-3</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">How Data Badger Works</h2>
+                </div>
+                <div class="row g-4 mt-3">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="text-center p-4">
+                            <div style="width: 80px; height: 80px; line-height: 80px; border-radius: 50%; background: linear-gradient(135deg, var(--db-primary), var(--db-secondary)); color: white; font-size: 2rem; font-weight: 700; margin: 0 auto 20px;">1</div>
+                            <h4>Choose Your Reports</h4>
+                            <p>Select from 15+ data report categories. Pick the lead types that match your business: probate, pre-foreclosure, tax delinquent, absentee owners, and more.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="text-center p-4">
+                            <div style="width: 80px; height: 80px; line-height: 80px; border-radius: 50%; background: linear-gradient(135deg, var(--db-primary), var(--db-secondary)); color: white; font-size: 2rem; font-weight: 700; margin: 0 auto 20px;">2</div>
+                            <h4>Select Your Markets</h4>
+                            <p>Tell us which counties you want to target. We pull fresh data from county assessors, recorders, courts, and federal databases for your specific markets.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay=".6s">
+                        <div class="text-center p-4">
+                            <div style="width: 80px; height: 80px; line-height: 80px; border-radius: 50%; background: linear-gradient(135deg, var(--db-primary), var(--db-secondary)); color: white; font-size: 2rem; font-weight: 700; margin: 0 auto 20px;">3</div>
+                            <h4>Download &amp; Close</h4>
+                            <p>Get clean, formatted CSV or Excel files delivered to your dashboard. Import directly into your CRM, dialer, or mailing service and start making contact.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Promotional / Offer Section ===== -->
+        <section class="section-padding fix" style="background: linear-gradient(135deg, #1a56db, #7c3aed); color: white;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 wow fadeInLeft" data-wow-delay=".3s">
+                        <span style="background: var(--db-accent); color: #111827; padding: 4px 16px; border-radius: 20px; font-weight: 700; font-size: 0.85rem;">LIMITED TIME OFFER</span>
+                        <h2 class="mt-3" style="color: white; font-size: 2.2rem;">Get Your First Month at <span style="text-decoration: line-through; opacity: 0.6;">Full Price</span> 50% Off</h2>
+                        <p style="font-size: 1.1rem; opacity: 0.9; max-width: 500px;">
+                            We're so confident in our data that we'll let you try any plan at half price for your first month. If the leads don't convert, you pay nothing.
+                        </p>
+                        <div class="d-flex flex-wrap gap-3 mt-4">
+                            <a href="#pricing" class="theme-btn" style="background: white; color: var(--db-primary); font-weight: 700;">
+                                Claim Your Discount <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                        <p class="mt-3" style="opacity: 0.7; font-size: 0.9rem;">No contracts. Cancel anytime. 7-day free trial included.</p>
+                    </div>
+                    <div class="col-lg-5 text-center wow fadeInRight" data-wow-delay=".4s">
+                        <img src="assets/img/hero/badger-hero-2.png" alt="Data Badger" style="max-width: 80%; height: auto;" class="fun-bounce">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Who It's For Section ===== -->
+        <section class="section-padding fix" style="background: var(--db-light);">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="sub-title wow fadeInUp" style="color: var(--db-primary);">BUILT FOR PROFESSIONALS</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Who Uses Data Badger?</h2>
+                </div>
+                <div class="row g-4 mt-2">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="text-center p-4" style="background: white; border-radius: 16px; height: 100%;">
+                            <div style="font-size: 2.5rem; color: var(--db-primary); margin-bottom: 15px;">
+                                <i class="fa-solid fa-house-user"></i>
+                            </div>
+                            <h5>Real Estate Agents</h5>
+                            <p>Probate, pre-foreclosure, expired listingsthe motivated seller leads that fill your pipeline and win listings.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="text-center p-4" style="background: white; border-radius: 16px; height: 100%;">
+                            <div style="font-size: 2.5rem; color: var(--db-primary); margin-bottom: 15px;">
+                                <i class="fa-solid fa-sack-dollar"></i>
+                            </div>
+                            <h5>Real Estate Investors</h5>
+                            <p>Tax delinquent, high equity, vacant propertiesoff-market deal flow powered by Distress Scores.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="text-center p-4" style="background: white; border-radius: 16px; height: 100%;">
+                            <div style="font-size: 2.5rem; color: var(--db-primary); margin-bottom: 15px;">
+                                <i class="fa-solid fa-scale-balanced"></i>
+                            </div>
+                            <h5>Attorneys</h5>
+                            <p>Probate, bankruptcy, divorce, and lien data for case acquisition. Reach potential clients before competing firms.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                        <div class="text-center p-4" style="background: white; border-radius: 16px; height: 100%;">
+                            <div style="font-size: 2.5rem; color: var(--db-primary); margin-bottom: 15px;">
+                                <i class="fa-solid fa-chart-pie"></i>
+                            </div>
+                            <h5>Financial Professionals</h5>
+                            <p>New homeowner data, high equity reports, and inheritance leads for insurance agents, financial advisors, and title companies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CTA Section ===== -->
+        <section class="section-padding fix" id="contact">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <div class="section-title">
+                            <span class="sub-title wow fadeInUp" style="color: var(--db-primary);">READY TO DIG IN?</span>
+                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Start Getting Better Leads Today</h2>
+                        </div>
+                        <p class="wow fadeInUp" data-wow-delay=".4s" style="max-width: 600px; margin: 0 auto; font-size: 1.1rem;">
+                            Join thousands of professionals who trust Data Badger for their lead generation. 7-day free trial, no credit card required, cancel anytime.
+                        </p>
+                        <div class="d-flex justify-content-center flex-wrap gap-3 mt-4 wow fadeInUp" data-wow-delay=".5s">
+                            <a href="#pricing" class="theme-btn">
+                                Start Free Trial <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                            <a href="#contact" class="theme-btn" style="background: var(--db-dark);">
+                                Contact Sales <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Testimonials Section ===== -->
+        <section class="testimonial-section fix section-padding" style="background: var(--db-light);">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="sub-title wow fadeInUp" style="color: var(--db-primary);">WHAT PEOPLE ARE SAYING</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Trusted by Professionals</h2>
+                </div>
+                <div class="swiper testimonial-slider mt-4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-card-items p-4" style="background: white; border-radius: 16px;">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div style="width: 50px; height: 50px; border-radius: 50%; background: var(--db-primary); color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.2rem; margin-right: 12px;">MR</div>
+                                    <div>
+                                        <h5 class="mb-0" style="font-size: 1rem;">Marcus R.</h5>
+                                        <small class="text-muted">Real Estate Investor, Dallas TX</small>
+                                    </div>
+                                </div>
+                                <div class="mb-2" style="color: var(--db-accent);">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>"I was paying $299/mo for a competitor and half the features were software tools I never used. Data Badger gives me better data at half the price. The Distress Score alone is worth the subscription."</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card-items p-4" style="background: white; border-radius: 16px;">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div style="width: 50px; height: 50px; border-radius: 50%; background: #7c3aed; color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.2rem; margin-right: 12px;">SL</div>
+                                    <div>
+                                        <h5 class="mb-0" style="font-size: 1rem;">Sarah L.</h5>
+                                        <small class="text-muted">Probate Attorney, Phoenix AZ</small>
+                                    </div>
+                                </div>
+                                <div class="mb-2" style="color: var(--db-accent);">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>"The probate data is incredibly fresh. I'm getting case filings within days of recording and the skip-traced contacts save my team hours of research. This is a game-changer for our practice."</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card-items p-4" style="background: white; border-radius: 16px;">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div style="width: 50px; height: 50px; border-radius: 50%; background: #f59e0b; color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.2rem; margin-right: 12px;">JT</div>
+                                    <div>
+                                        <h5 class="mb-0" style="font-size: 1rem;">James T.</h5>
+                                        <small class="text-muted">RE/MAX Agent, Orlando FL</small>
+                                    </div>
+                                </div>
+                                <div class="mb-2" style="color: var(--db-accent);">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>"I switched from AllTheLeads and I'm saving $120/month while getting more report categories. The data downloads right into my CRM. No learning curve, no software to figure out. Just leads."</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card-items p-4" style="background: white; border-radius: 16px;">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div style="width: 50px; height: 50px; border-radius: 50%; background: #22c55e; color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.2rem; margin-right: 12px;">KW</div>
+                                    <div>
+                                        <h5 class="mb-0" style="font-size: 1rem;">Kim W.</h5>
+                                        <small class="text-muted">Insurance Agent, Atlanta GA</small>
+                                    </div>
+                                </div>
+                                <div class="mb-2" style="color: var(--db-accent);">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <p>"The new homeowner reports are perfect for my insurance business. Fresh deed transfers with verified contact info every week. I've tripled my new policy signups since switching to Data Badger."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FAQ Section ===== -->
+        <section class="faq-section fix section-padding" id="faq" style="background: #e8f0fe;">
+            <div class="container">
+                <div class="row g-4 align-items-start">
+                    <div class="col-lg-5">
+                        <div class="section-title">
+                            <span class="sub-title wow fadeInUp" style="color: var(--db-primary);">GOT QUESTIONS?</span>
+                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Frequently Asked Questions</h2>
+                        </div>
+                        <p class="wow fadeInUp" data-wow-delay=".4s">
+                            Can't find what you're looking for? We're here to help. Use our contact form and our team will get back to you within 24 hours.
+                        </p>
+                        <img src="assets/img/logo/db-icon-badge.png" alt="Data Badger" class="wow fadeInUp mt-4" data-wow-delay=".5s" style="max-width: 260px;">
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="faq-content">
+                            <div class="accordion" id="faqAccordion">
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".2s" style="border-radius: 12px; margin-bottom: 12px; border: 1px solid #e5e7eb;">
+                                    <h2 class="accordion-header" id="faqOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                                            Where does Data Badger's data come from?
+                                        </button>
+                                    </h2>
+                                    <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqOne" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            Every data point traces back to a public record. We source directly from county assessor offices, county recorder offices, county and federal courts (including PACER), county treasurer/tax collector offices, USPS address databases, and municipal code enforcement departments. Our "Derived" data (like AVM and Distress Scores) is calculated from these public records using transparent, documented formulas. Our "Appended" contact data comes from publicly available skip-tracing sources.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".3s" style="border-radius: 12px; margin-bottom: 12px; border: 1px solid #e5e7eb;">
+                                    <h2 class="accordion-header" id="faqTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                                            How fresh is the data?
+                                        </button>
+                                    </h2>
+                                    <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqTwo" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            Our data refresh schedule depends on your plan. Starter plans receive weekly updates, Professional plans get daily refreshes, and Enterprise/Brokerage plans have access to real-time data. Court filings typically appear in our system within 1-3 business days of being recorded. Property transfers and tax records update on a daily cycle across all covered counties.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".4s" style="border-radius: 12px; margin-bottom: 12px; border: 1px solid #e5e7eb;">
+                                    <h2 class="accordion-header" id="faqThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+                                            What is the Distress Score&trade;?
+                                        </button>
+                                    </h2>
+                                    <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqThree" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            The Distress Score is our proprietary composite index that rates every property on a 0-100 scale based on 18 weighted distress signals. These include factors like tax delinquency, pre-foreclosure status, code violations, vacancy indicators, lien amounts, ownership duration, and more. A higher score means a higher likelihood that the owner is motivated to sell. It's available on Enterprise and Brokerage plans, and it's a powerful way to stack-rank your entire target market by motivation level.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".5s" style="border-radius: 12px; margin-bottom: 12px; border: 1px solid #e5e7eb;">
+                                    <h2 class="accordion-header" id="faqFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour">
+                                            How is Data Badger different from our competitors?
+                                        </button>
+                                    </h2>
+                                    <div id="faqCollapseFour" class="accordion-collapse collapse" aria-labelledby="faqFour" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            Most competitors bundle their data with expensive software platforms, CRM tools, and marketing features you may not needand charge accordingly. Data Badger focuses exclusively on what matters: the data itself. We deliver clean, actionable reports at a fraction of the cost because you're not paying for software overhead. Our pricing starts at $79/mo compared to $199-$399/mo for comparable data from competitors. Same public records, better price, zero bloat.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".6s" style="border-radius: 12px; margin-bottom: 12px; border: 1px solid #e5e7eb;">
+                                    <h2 class="accordion-header" id="faqFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFive" aria-expanded="false" aria-controls="faqCollapseFive">
+                                            Can I use Data Badger data with my existing CRM?
+                                        </button>
+                                    </h2>
+                                    <div id="faqCollapseFive" class="accordion-collapse collapse" aria-labelledby="faqFive" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            Absolutely. All reports are delivered as standard CSV or Excel files that import directly into any CRM, dialer, or mailing service. Whether you use Follow Up Boss, KVCore, Salesforce, HubSpot, or any other systemif it accepts CSV imports, it works with Data Badger. Enterprise and Brokerage plans also include API access for automated data feeds.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".7s" style="border-radius: 12px; margin-bottom: 12px; border: 1px solid #e5e7eb;">
+                                    <h2 class="accordion-header" id="faqSix">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseSix" aria-expanded="false" aria-controls="faqCollapseSix">
+                                            Is there a free trial?
+                                        </button>
+                                    </h2>
+                                    <div id="faqCollapseSix" class="accordion-collapse collapse" aria-labelledby="faqSix" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            Yes! Every plan includes a 7-day free trial with no credit card required. You'll get full access to your selected plan's features so you can evaluate the data quality before committing. We're confident that once you see the data, you'll stick around.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Footer Section ===== -->
+        <footer class="footer-section fix" style="background: #111827; color: #9ca3af;">
+            <div class="container">
+                <div class="footer-widgets-wrapper section-padding pb-0">
+                    <div class="row g-4">
+                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="single-footer-widget">
+                                <div class="widget-head">
+                                    <a href="index.html">
+                                        <img src="assets/img/logo/db-logo-horizontal.png" alt="Data Badger Logo" style="max-height: 50px;">
+                                    </a>
+                                </div>
+                                <div class="footer-content mt-3">
+                                    <p>Data Badger digs deep into public records so you don't have to. Actionable data reports for real estate agents, investors, attorneys, title companies, insurance agents, and financial advisors.</p>
+                                    <div class="social-icon d-flex align-items-center mt-3">
+                                        <a href="#" style="width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background: #1f2937; color: #9ca3af; margin-right: 8px;"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" style="width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background: #1f2937; color: #9ca3af; margin-right: 8px;"><i class="fab fa-x-twitter"></i></a>
+                                        <a href="#" style="width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background: #1f2937; color: #9ca3af; margin-right: 8px;"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#" style="width: 36px; height: 36px; line-height: 36px; text-align: center; border-radius: 50%; background: #1f2937; color: #9ca3af;"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="single-footer-widget">
+                                <div class="widget-head">
+                                    <h4 style="color: white;">Data Reports</h4>
+                                </div>
+                                <ul class="list-area mt-3" style="list-style: none; padding: 0;">
+                                    <li class="mb-2"><a href="#reports" style="color: #9ca3af; text-decoration: none;">Probate Leads</a></li>
+                                    <li class="mb-2"><a href="#reports" style="color: #9ca3af; text-decoration: none;">Pre-Foreclosure</a></li>
+                                    <li class="mb-2"><a href="#reports" style="color: #9ca3af; text-decoration: none;">Tax Delinquent</a></li>
+                                    <li class="mb-2"><a href="#reports" style="color: #9ca3af; text-decoration: none;">Absentee Owners</a></li>
+                                    <li class="mb-2"><a href="#reports" style="color: #9ca3af; text-decoration: none;">Divorce Filings</a></li>
+                                    <li class="mb-2"><a href="#reports" style="color: #9ca3af; text-decoration: none;">Distress Score&trade;</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="single-footer-widget">
+                                <div class="widget-head">
+                                    <h4 style="color: white;">Company</h4>
+                                </div>
+                                <ul class="list-area mt-3" style="list-style: none; padding: 0;">
+                                    <li class="mb-2"><a href="#about" style="color: #9ca3af; text-decoration: none;">About Us</a></li>
+                                    <li class="mb-2"><a href="#pricing" style="color: #9ca3af; text-decoration: none;">Pricing</a></li>
+                                    <li class="mb-2"><a href="#how-it-works" style="color: #9ca3af; text-decoration: none;">How It Works</a></li>
+                                    <li class="mb-2"><a href="#data-sources" style="color: #9ca3af; text-decoration: none;">Data Sources</a></li>
+                                    <li class="mb-2"><a href="#faq" style="color: #9ca3af; text-decoration: none;">FAQ</a></li>
+                                    <li class="mb-2"><a href="#contact" style="color: #9ca3af; text-decoration: none;">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                            <div class="single-footer-widget">
+                                <div class="widget-head">
+                                    <h4 style="color: white;">Stay in the Loop</h4>
+                                </div>
+                                <p class="mt-3">Get notified about new report categories, coverage expansions, and exclusive offers.</p>
+                                <form action="#" method="post" class="mt-3">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" placeholder="Your email address" aria-label="Email address" style="border-radius: 8px 0 0 8px; border: 1px solid #374151; background: #1f2937; color: white; padding: 12px 16px;">
+                                        <button class="theme-btn" type="submit" style="border-radius: 0 8px 8px 0; padding: 12px 20px;">Subscribe</button>
+                                    </div>
+                                </form>
+                                <div class="mt-4">
+                                    <p><i class="fa-solid fa-globe" style="color: var(--db-primary); margin-right: 8px;"></i> <a href="https://mydatabadger.com" style="color: #9ca3af;">mydatabadger.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom mt-4 pt-4 pb-4" style="border-top: 1px solid #1f2937;">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <p class="mb-0">&copy; 2026 Data Badger. All rights reserved. <a href="#" style="color: #9ca3af;">Privacy Policy</a> | <a href="#" style="color: #9ca3af;">Terms of Service</a></p>
+                        </div>
+                        <div class="col-lg-6 text-lg-end">
+                            <p class="mb-0">Public records data you can trust. <strong style="color: white;">mydatabadger.com</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Back to Top -->
+        <div id="scroll-percentage">
+            <span id="scroll-percentage-value"></span>
+        </div>
+
+        <!--<< All JS Plugins >>-->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <!--<< Viewport Js >>-->
+        <script src="assets/js/viewport.jquery.js"></script>
+        <!--<< Bootstrap Js >>-->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!--<< Nice Select Js >>-->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!--<< Waypoints Js >>-->
+        <script src="assets/js/jquery.waypoints.js"></script>
+        <!--<< Counterup Js >>-->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <!--<< Swiper Js >>-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <!--<< MeanMenu Js >>-->
+        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <!--<< Magnific Popup Js >>-->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!--<< Wow Js >>-->
+        <script src="assets/js/wow.min.js"></script>
+        <!--<< Main Js >>-->
+        <script src="assets/js/main.js"></script>
+
+        <!-- Data Badger Custom JS -->
+        <script>
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        e.preventDefault();
+                        const offset = 80;
+                        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Counter animation (in case the template's counterUp needs custom config)
+            document.addEventListener('DOMContentLoaded', function() {
+                // Initialize testimonial swiper
+                if (typeof Swiper !== 'undefined') {
+                    new Swiper('.testimonial-slider', {
+                        slidesPerView: 1,
+                        spaceBetween: 30,
+                        loop: true,
+                        autoplay: {
+                            delay: 5000,
+                            disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            clickable: true,
+                        },
+                        breakpoints: {
+                            768: {
+                                slidesPerView: 2,
+                            },
+                            1024: {
+                                slidesPerView: 3,
+                            }
+                        }
+                    });
+                }
+
+                // Counter animation
+                if (typeof jQuery !== 'undefined' && jQuery.fn.counterUp) {
+                    jQuery('.count').counterUp({
+                        delay: 10,
+                        time: 1500
+                    });
+                }
+            });
+        </script>
+
+    </body>
+</html>
